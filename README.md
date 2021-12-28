@@ -4,6 +4,8 @@ Various coding katas
 
 ## General Python configuration
 
+- [Python Best Practices for a New Project in 2021](https://mitelman.engineering/blog/automating-python-best-practices-for-a-new-project/)
+
 ### Using `pyenv` to manage the Python interpreter
 
 #### Installation via Homebrew
@@ -44,4 +46,11 @@ python -V
 brew update && brew install poetry
 ```
 
+Add Poetry to the `PATH`, adding the following line to your **~/.zshrc** or **~/.zprofile** file:
 
+```shell
+export PATH="$HOME/.poetry/bin:$PATH"
+```
+
+
+#### 
