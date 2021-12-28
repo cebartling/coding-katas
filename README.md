@@ -53,4 +53,39 @@ export PATH="$HOME/.poetry/bin:$PATH"
 ```
 
 
-#### 
+#### Creating new Python projects with `poetry`
+
+To create a new Python project named `my-project` using python `3.10.1` with Poetry:
+
+```shell
+poetry new my-project
+cd my-project
+pyenv local 3.10.1
+python -V
+poetry env use python
+```
+
+
+#### Adding dependencies with `poetry`
+
+To install dependencies (installing `aiohttp` for this example): 
+
+```shell
+poetry add aiohttp
+```
+
+
+#### Installing dependencies for local development
+
+If you pull an existing project and want to install its dependencies for local development, simply run:
+
+```shell
+poetry install
+```
+
+#### Updating all dependencies to the latest versions:
+
+```shell
+poetry update
+```
+
