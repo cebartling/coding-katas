@@ -66,6 +66,13 @@ poetry env use python
 ```
 
 
+#### Activating the virtual environment via `poetry`
+
+```shell
+poetry shell
+```
+
+
 #### Adding dependencies with `poetry`
 
 To install dependencies (installing `aiohttp` for this example): 
