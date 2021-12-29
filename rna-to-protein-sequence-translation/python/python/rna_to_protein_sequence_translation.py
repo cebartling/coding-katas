@@ -24,7 +24,7 @@ codon_map = {
 }
 
 
-def translate_to_protein(rna: str) -> str:
+def protein(rna: str) -> str:
     codons = [rna[i:i + 3] for i in range(0, len(rna), 3)]
     protein_sequence = ''
     for codon in codons:
