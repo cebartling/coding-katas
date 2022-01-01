@@ -1,5 +1,5 @@
-fn convert(dna: &str) -> Result<String, String> {
-    Ok(str::replace(dna, "T", "U"))
+fn rna(dna: &str) -> Result<String, String> {
+    Ok(dna.replace( "T", "U"))
 }
 
 #[cfg(test)]
@@ -8,8 +8,14 @@ mod tests {
     use super::*;
 
     #[test]
-    fn test_convert() -> Result<(), String> {
-        assert_eq!(convert("CGAT")?, "CGAU");
+    fn test_rna_single_replacement() -> Result<(), String> {
+        assert_eq!(rna("CGAT")?, "CGAU");
+        Ok(())
+    }
+
+    #[test]
+    fn test_rna_multiple_replacement() -> Result<(), String> {
+        assert_eq!(rna("CGATCGATCGATCGATCGAT")?, "CGAUCGAUCGAUCGAUCGAU");
         Ok(())
     }
 }
