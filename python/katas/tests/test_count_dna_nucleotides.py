@@ -1,4 +1,4 @@
-from katas.count_dna_nucleotides import count
+from count_dna_nucleotides import count
 
 
 def test_count():
