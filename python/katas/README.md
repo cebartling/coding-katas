@@ -1,5 +1,15 @@
 # Python Katas
 
+## Katas
+
+### ROSALIND problems
+- [Counting point mutations](https://rosalind.info/problems/hamm/)
+- [Computing GC Content](https://rosalind.info/problems/gc/)
+- [Rabbits and Recurrence Relations](https://rosalind.info/problems/fib/)
+- [Complementing a Strand of DNA](https://rosalind.info/problems/revc/)
+- [Transcribing DNA into RNA](https://rosalind.info/problems/rna/)
+- [Counting DNA Nucleotides](https://rosalind.info/problems/dna/)
+
 ## General Python configuration
 
 - [Python Best Practices for a New Project in 2021](https://mitelman.engineering/blog/automating-python-best-practices-for-a-new-project/)
