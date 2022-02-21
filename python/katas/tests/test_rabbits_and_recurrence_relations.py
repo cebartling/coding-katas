@@ -15,5 +15,5 @@ from rabbits_and_recurrence_relations import recurrence_relation
     (7, 3, 97),
     (12, 3, 6160),
 ])
-def test_recurrence_relation(month, pairs_per_generation, expected):
+def test_recurrence_relation(month: int, pairs_per_generation: int, expected: int) -> None:
     assert expected == recurrence_relation(month, pairs_per_generation)
