@@ -5,7 +5,7 @@ def count_gc(current_id: str, dna_string: str) -> (str, float):
     gc_bases = 0
     for base in dna_string:
         total_bases += 1
-        if base is 'C' or base is 'G':
+        if base in ['C', 'G']:
             gc_bases += 1
     return current_id, "{:.6f}".format((gc_bases / total_bases) * 100)
 
