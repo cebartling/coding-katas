@@ -3,7 +3,7 @@
 ## Katas
 
 ### ROSALIND problems
-- [Counting point mutations](https://rosalind.info/problems/hamm/)
+- [Counting point mutations with Hamming distance](https://rosalind.info/problems/hamm/)
 - [Computing GC Content](https://rosalind.info/problems/gc/)
 - [Rabbits and Recurrence Relations](https://rosalind.info/problems/fib/)
 - [Complementing a Strand of DNA](https://rosalind.info/problems/revc/)
