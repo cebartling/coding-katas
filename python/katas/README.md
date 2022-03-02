@@ -3,6 +3,7 @@
 ## Katas
 
 ### ROSALIND problems
+- [Mendel's First Law](https://rosalind.info/problems/iprb/): [Code](./katas/mendel_first_law.py) and [tests](./tests/test_mendel_first_law.py)
 - [Counting point mutations with Hamming distance](https://rosalind.info/problems/hamm/): [Code](./katas/hamming_distance.py) and [tests](./tests/test_hamming_distance.py)
 - [Computing GC Content](https://rosalind.info/problems/gc/)
 - [Rabbits and Recurrence Relations](https://rosalind.info/problems/fib/)
