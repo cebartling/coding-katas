@@ -1,5 +1,4 @@
 import pytest
-from numpy import nan
 
 from mendel_first_law import calculate_probability
 
