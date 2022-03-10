@@ -9,5 +9,5 @@ from mendel_first_law import calculate_probability
     (10, 10, 10, 0.7557471264367817),
     (1, 1, 1, 0.8333333333333334),
 ])
-def test_calculate_probability(k: int, m: int, n: int, expected: float):
+def test_calculate_probability(k: int, m: int, n: int, expected: float) -> None:
     assert calculate_probability(k=k, m=m, n=n) == expected

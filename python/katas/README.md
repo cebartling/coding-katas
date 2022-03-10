@@ -3,6 +3,7 @@
 ## Katas
 
 ### ROSALIND problems
+- [Finding a Motif in DNA](https://rosalind.info/problems/subs/): [Code](./katas/motif_dna.py) and [tests](./tests/test_motif_dna.py)
 - [Mendel's First Law](https://rosalind.info/problems/iprb/): [Code](./katas/mendel_first_law.py) and [tests](./tests/test_mendel_first_law.py)
 - [Counting point mutations with Hamming distance](https://rosalind.info/problems/hamm/): [Code](./katas/hamming_distance.py) and [tests](./tests/test_hamming_distance.py)
 - [Computing GC Content](https://rosalind.info/problems/gc/)
